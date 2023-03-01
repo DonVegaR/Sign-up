@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bolder;
+    
+}
+/* css reset */
+
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left{
+    background-image: url(https://images.unsplash.com/photo-1673193408241-558623058c91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background-position: center;
+    width: 40vw;
+}
+
+div.header > p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 50px;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+div.div-form > div > p {
+    font-size: 1.5rem;
+}
+
+/* Right side */
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+    background-color: #333;
+    color: white;
+}
+
+.header{
+    transform: translateY(-100px);
+}
+
+.div-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+    gap: 20px;
+    transform: translateY(-50px);
+    background-color: #444;
+    margin: 50px;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.form-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.form-info{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 10px;
+    gap: 10px;
+}
+
+button{
+    margin-left: 15px;
+    size: 50px;
+}
